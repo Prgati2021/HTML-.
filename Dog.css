@@ -1,0 +1,19 @@
+fieldset{
+    width: 700px;
+}
+p{
+  background-color: rgb(151, 212, 240);
+  font-weight: bolder;
+  font-size: 20px;
+}
+#t1{
+    color: cornflowerblue;
+
+}
+#t2{
+    color:cornflowerblue;
+}
+#hp{
+    bottom: 500px;;
+    float: right;    
+    margin: 0 0 0 15px;

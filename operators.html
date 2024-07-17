@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1  {
+        text-align: center;
+    }
+</style>
+<body>
+   <h1> <b> Operators</b></h1>
+   
+    <script>
+           var a=20, b=10;
+
+// Assignment Operators
+        document.write((a+=b)+"<br>");
+        document.write((a-=b)+"<br>");
+        document.write((a/=b)+"<br>");
+        document.write((a%=b)+"<br><hr>");
+
+// Relational Operators
+        document.write((a>b)+"<br>");
+        document.write((a<b)+"<br>");
+        document.write((a>=b)+"<br>");
+        document.write((a<=b)+"<br>");
+        document.write((a==b)+"<br>");
+        document.write((a!=b)+"<br><hr>");
+       
+// Arithematic Operators
+
+        document.write((a+b)+"<br>");
+        document.write((a-b)+"<br>");
+        document.write((a/b)+"<br>");
+        document.write((a%b)+"<br>");
+        document.write((a*b)+"<br> <hr> ");
+
+
+ // Logical Operators
+
+        document.write((a>b)&&(b<a)+"<br>");
+        document.write((a<b)||(b>a)+"<br>");
+        document.write(!(a>b)+"<br><hr>");
+        
+
+
+// Unary Operators
+         var a=20;
+        document.write("Post Increament" +(a++)+"<br>");
+        document.write("Current Value of a" +a+"<br>");
+        document.write("Pre Increament" +(++a)+"<br>");
+        document.write("Post Decrement" +(a--)+"<br>");
+        document.write("Current Value of a" +a+"<br>");
+        document.write("Pre Decrement" +(--a)+"<br> <hr>");
+
+
+//Ternary Operators
+
+     var a=25, b= 10, max;
+     
+     max = (a>20 && b<20)? a:b;
+     document.write("Max value is"+max)
+
+    </script>
+
+</body>
+</html>

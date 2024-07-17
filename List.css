@@ -1,0 +1,22 @@
+.my-list {
+    list-style-type: square; /* Change bullet style to square */
+    
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 300px;
+    
+    border-radius: 5px;
+}
+
+/* Style each list item */
+
+.my-list li {
+     /* Space between list items */
+    font-size: 16px;
+}
+
+/* Hover effect on list items */
+.my-list li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
